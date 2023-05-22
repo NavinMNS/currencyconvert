@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800;900&family=Raleway:wght@400;700&display=swap');
+*{
+        margin: 0;
+        box-sizing: border-box;
+    padding: 0;
+font-family: 'Poppins' , sans-serif;
+justify-content: center;
+align-items: center;
+text-align: center;
+position: relative;
+
+
+}
+body{
+    overflow: scroll;
+
+background-repeat: no-repeat;
+background-size: cover;
+    
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    display: flex;
+    width: auto;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;    
+    color: goldenrod;
+}
+.header h2{
+    font-size: 20px;
+}
+.container{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.main-content{
+   position: relative;
+margin-top: 40px;
+margin-left:200px;
+    width: 900px;
+    height: 400px;
+
+   background: rgba(255, 255, 255, .2);
+   box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    border-radius: 10px;
+
+}
+.line1{
+    background: #DE6262; 
+    background: -webkit-linear-gradient(to right, #FFB88C, #DE6262);  
+    background: linear-gradient(to right, #FFB88C, #DE6262); 
+    width: 600px;
+    height: 10px;
+   
+    margin-left: 360px;
+}
+.line2{
+    background: #DE6262; 
+    background: -webkit-linear-gradient(to right, #FFB88C, #DE6262);  
+    background: linear-gradient(to right, #FFB88C, #DE6262); 
+    width: 300px;
+    height: 10px;
+    margin-top: 30px;
+    margin-left: 510px;
+}
+.line{
+    background: #DE6262; 
+background: -webkit-linear-gradient(to right, #FFB88C, #DE6262);  
+background: linear-gradient(to right, #FFB88C, #DE6262); 
+width: 150px;
+height: 10px;
+margin-top: 30px;
+margin-left: 580px;
+
+}
+.footer{
+    margin-top: 200px;
+    margin-left: 350px;
+    margin-bottom: 200px;
+  
+    width: 600px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-top-left-radius: 10px;
+}
+.footer h2{
+    margin-top: 30px;
+}
+.sub-content{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 15px;
+    margin-left: 80px;
+}
+.convert_btn{
+    width: 150px;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    background-color: lightgreen;
+    margin-top: 30px;
+}
+.convert_btn:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: 1s;
+}
+.output_amount{
+    margin-left: 400px;
+    font-size: 15px;
+
+}
+.getapp_btn{
+    width: 150px;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    background-color: lightgreen;
+    margin-top: 30px;
+}
+.getapp_btn:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: 1s;
+}
+/*-------------Mbile Phone -------------------*/
+@media only screen and (max-width: 380px) {
+    body {
+        overflow: scroll;
+
+        background-repeat: no-repeat;
+        background-size: cover;
+            
+            justify-content: center;
+            align-items: center;
+    }
+    .container{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .header{
+
+      
+        width: 100%;
+        margin-left: 200px;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;    
+        color: goldenrod;
+    }
+    .line1{
+    
+        background: #DE6262; 
+        background: -webkit-linear-gradient(to right, #FFB88C, #DE6262);  
+        background: linear-gradient(to right, #FFB88C, #DE6262); 
+        width: 300px;
+        height: 10px;
+       
+        margin-left: 220px;
+    }
+    .line2{
+        background: #DE6262; 
+        background: -webkit-linear-gradient(to right, #FFB88C, #DE6262);  
+        background: linear-gradient(to right, #FFB88C, #DE6262); 
+        width: 150px;
+        height: 10px;
+        margin-top: 30px;
+        margin-left: 290px;
+    }
+    .line{
+        background: #DE6262; 
+    background: -webkit-linear-gradient(to right, #FFB88C, #DE6262);  
+    background: linear-gradient(to right, #FFB88C, #DE6262); 
+    width: 75px;
+    height: 10px;
+    margin-top: 30px;
+    margin-left: 320px;
+    
+    }
+    .sub-content{
+        display: none;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 40px;
+        font-size: 16px;
+        margin-left: 280px;
+    }
+    .main-content{
+        position: relative;
+     margin-top: 60px;
+     margin-left:140px;
+         width: 450px;
+         height: 400px;
+     
+        background: rgba(255, 255, 255, .2);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+         border-radius: 10px;
+     
+     }
+     .footer{
+        display: none;
+        margin-top: 200px;
+        margin-left: 140px;
+        margin-bottom: 200px;
+       
+        width: 450px;
+        height: 200px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-top-left-radius: 10px;
+    }
+    .footer h2{
+        margin-top: 30px;
+    }
+    .output_amount{
+        margin-left: 200px;
+        font-size: 15px;
+    
+    }
+.from_amount , .to_amount{
+    width: auto;
+
+}
+  }
+  @media only screen and (max-width: 680px) {
+    body {
+        overflow: scroll;
+
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+    }
+    .container{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .header{
+
+      
+        width: 100%;
+        margin-left: 100px;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;    
+        color: goldenrod;
+    }
+    .line1{
+    
+        background: #DE6262; 
+        background: -webkit-linear-gradient(to right, #FFB88C, #DE6262);  
+        background: linear-gradient(to right, #FFB88C, #DE6262); 
+        width: 300px;
+        height: 10px;
+       
+        margin-left: 220px;
+    }
+    .line2{
+        background: #DE6262; 
+        background: -webkit-linear-gradient(to right, #FFB88C, #DE6262);  
+        background: linear-gradient(to right, #FFB88C, #DE6262); 
+        width: 150px;
+        height: 10px;
+        margin-top: 30px;
+        margin-left: 290px;
+    }
+    .line{
+        background: #DE6262; 
+    background: -webkit-linear-gradient(to right, #FFB88C, #DE6262);  
+    background: linear-gradient(to right, #FFB88C, #DE6262); 
+    width: 75px;
+    height: 10px;
+    margin-top: 30px;
+    margin-left: 320px;
+    
+    }
+    .sub-content{
+        display: none;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 40px;
+        font-size: 16px;
+        margin-left: 280px;
+    }
+    .main-content{
+        position: relative;
+     margin-top: 60px;
+     margin-left:140px;
+         width: 450px;
+         height: 400px;
+     
+        background: rgba(255, 255, 255, .2);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+         border-radius: 10px;
+     
+     }
+     .footer{
+        margin-top: 200px;
+        margin-left: 140px;
+        margin-bottom: 200px;
+      
+        width: 450px;
+        height: 200px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-top-left-radius: 10px;
+    }
+    .footer h2{
+        margin-top: 30px;
+    }
+    .output_amount{
+        margin-left: 200px;
+        font-size: 15px;
+    
+    }
+.from_amount , .to_amount{
+    width: auto;
+
+}
+  }
